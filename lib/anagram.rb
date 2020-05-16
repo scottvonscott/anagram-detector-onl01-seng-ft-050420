@@ -11,14 +11,12 @@ class Anagram
   def match (word_array)
     matching_words = []
     index_word = Array.new(@word.split("")).sort
-     if word_array.collect do |words|
+       word_array.collect do |words|
        split_array_word = Array.new(words.split("")).sort
        index_word == split_array_word
-       words
+       matching_words << words
     end
-    nil
-
-    end
+    matching_words
   end
 
 
