@@ -15,6 +15,7 @@ class Anagram
        index_word == split_array_word
        words
     else
+      false
     end
     end
   end
