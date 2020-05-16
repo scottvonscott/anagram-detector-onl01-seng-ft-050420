@@ -16,6 +16,7 @@ class Anagram
        if index_word == split_array_word
           matching_words << words
        binding.pry
+     end
     end
     matching_words
   end
