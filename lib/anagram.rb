@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match (word_array)
+    matching_words = []
     index_word = Array.new(@word.split("")).sort
      if word_array.collect do |words|
        split_array_word = Array.new(words.split("")).sort
