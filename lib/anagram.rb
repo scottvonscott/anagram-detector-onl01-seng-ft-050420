@@ -18,9 +18,3 @@ class Anagram
 
 
   end
-
-
-
-
-
-end
