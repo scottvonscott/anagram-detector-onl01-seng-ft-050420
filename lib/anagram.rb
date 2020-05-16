@@ -15,7 +15,6 @@ class Anagram
        split_array_word = Array.new(words.split("")).sort
        if index_word == split_array_word
           matching_words << words
-       binding.pry
      end
     end
     matching_words
