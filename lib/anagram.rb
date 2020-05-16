@@ -14,8 +14,6 @@ class Anagram
        split_array_word = Array.new(words.split("")).sort
        index_word == split_array_word
        words
-    else
-      false
     end
     end
   end
