@@ -15,6 +15,8 @@ class Anagram
       index_word == split_array_word
       words
       binding.pry
+    else
+    end
     end
   end
 
