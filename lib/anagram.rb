@@ -13,8 +13,8 @@ class Anagram
     index_word = Array.new(@word.split("")).sort
        word_array.collect do |words|
        split_array_word = Array.new(words.split("")).sort
-       index_word == split_array_word
-       matching_words << words
+       if index_word == split_array_word
+          matching_words << words
        binding.pry
     end
     matching_words
