@@ -16,6 +16,7 @@ class Anagram
        words
     end
     end
+    nil
   end
 
 
