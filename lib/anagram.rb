@@ -15,8 +15,9 @@ class Anagram
        index_word == split_array_word
        words
     end
-    end
     nil
+
+    end
   end
 
 
